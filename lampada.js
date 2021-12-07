@@ -46,6 +46,8 @@ function ligaDesliga(){
 // a função de ligar e desligar é executada ao clicar no botão
 interruptor.addEventListener("click", ligaDesliga)
 
+interruptor.addEventListener("dblclick", quebraLampada)
+
 // a função de ligar será executa ao sobrepor o mouse à lâmpada
 lampada.addEventListener("mouseover", ligaLampada);
 
