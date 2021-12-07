@@ -5,6 +5,7 @@ const lampada = document.getElementById("lampada");
 function quebraLampada(){
     lampada.src = "./img/lampada_quebrada.jpg";
     interruptor.textContent = "Ligar";
+    interruptor.setAttribute("disabled", "");
 }
 
 // a função retorna se a lâmpada está quebrada
